@@ -1,0 +1,62 @@
+[
+  {
+    "id":1,
+    "image": "../images/technology/html.png",
+    "text":"HTML"
+  },
+  {
+    "id":2,
+    "image": "../images/technology/css.png",
+    "text":"CSS"
+  },
+  {
+    "id":3,
+    "image": "../images/technology/sass.png",
+    "text":"SASS"
+  },
+  {
+    "id":4,
+    "image": "../images/technology/tailwind.png",
+    "text": "Tailwind"
+  },
+  {
+    "id":5,
+    "image": "../images/technology/javascript.png",
+    "text":"JavaScript"
+  },
+  {
+    "id":6,
+    "image": "../images/technology/react.png",
+    "text":"ReactJs"
+  },
+  {
+    "id":7,
+    "image": "../images/technology/git.png",
+    "text":"GİT"
+  },
+  {
+    "id":8,
+    "image":"../images/technology/github.png",
+    "text": "GitHub"
+  },
+  {
+    "id":8,
+    "image": "../images/technology/xd.png",
+    "text":"Adobe XD"
+  },
+  {
+    "id":9,
+    "image": "../images/technology/figma.png",
+    "text":"Figma"
+  },
+  {
+    "id":10,
+    "image":"../images/technology/ilustrator.png",
+    "text":"Adobe Illustrator"
+  },
+  {
+    "id":11,
+    "image":"../images/technology/vue.png",
+    "text":"VueJs"
+  }
+]
