@@ -49,7 +49,7 @@ const Coding = () => {
               </div>
  
             </div>
-          ))}
+          )).reverse()}
 
 
         </div>

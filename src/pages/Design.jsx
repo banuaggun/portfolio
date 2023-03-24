@@ -44,7 +44,7 @@ const Design = () => {
               </div>
  
             </div>
-          ))}
+          )).reverse()}
 
 
         </div>
