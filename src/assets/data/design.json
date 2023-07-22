@@ -52,5 +52,11 @@
     "image":"../images/design/FlightBooking.png",
     "title":"Flight Booking App",
     "url":"https://www.behance.net/gallery/166685693/Flight-Booking-App"
+  },
+  {
+    "id":10,
+    "image":"../images/design/WalletDashboard.png",
+    "title":"Wallet Dashboard",
+    "url":"https://www.behance.net/gallery/174893753/Wallet-Dashboard"
   }
 ]
