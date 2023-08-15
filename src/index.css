@@ -1,39 +1,51 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@layer base{
-  body{
-    @apply font-[Quicksand];
+:root{
+  --bg_colour:#FFFFFF;
+  --bg_colour_2:#f2f2f5;
+  --colour_1:#ff757c;
+  --colour_2:#547fc5;
+  --text_colour_1:#000000;
+  --text_colour_2:#151515;
+  --text_colour_3:#242222;
+  --weight_normal:500;
+  --weight_medium:600;
+  --weight_bold:700;
+  --card_shadow:inset -3px -2px 3px 0px #ff757c, inset 3px 3px 3px 0px #547fc5;
+  --circle_shadow:0px 2px 6px #325771, 0px -2px 6px #325771;
+}
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow-x:hidden;
+  background-color: var(--bg_colour);
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.layout{
+  width:100%;
+  overflow-x:hidden;
+  
+}
+
+
+.page{
+  position: relative;
+  width:100%;
+  margin:0px auto;
+
+}
+
+
+
+
+
+@media screen and (max-width:700px){
+  .page{
+    max-width:300px;
+
   }
-  li{
-    @apply px-4;
-    @apply cursor-pointer;
-  }
-}
-
-.content-div{
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
-  height:250px;
-}
-
-
-.content-div:hover{
-  background-image: linear-gradient(
-    to right,
-    #decdf5,
-    #f8f1ff   
-  )!important;
-}
-
-
-.navbar__item.active{
-  color:#232c33; 
-  font-weight:bold;
-  padding-bottom:4px;
-  border-bottom:3px solid #87bba2;
 }

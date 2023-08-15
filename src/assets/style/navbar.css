@@ -1,0 +1,211 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: var(--bg_colour);
+    box-shadow: 0 0px 8px rgba(142, 142, 142, 0.5);
+    position:fixed;
+    z-index:10;
+    margin-bottom:100px;
+}
+
+.navbar__logo {
+    margin-left: 80px;
+}
+
+.logo1{
+  display:block;
+}
+
+.logo2, .logo3{
+  display:none;
+}
+
+.navbar__logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+
+.navbar__list {
+  position: absolute;
+  right: 80px;
+  margin-bottom: 0px;
+}
+
+
+
+.navbar__list li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.navbar__mobile__list li {
+  box-shadow: 0 0px 8px rgba(142, 142, 142, 0.5);
+  height: auto;
+  position: absolute;
+  right: 20px;
+  left:20px;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  background-color:var(--bg_colour);
+  border-radius:8px;
+}
+
+.navbar__item,
+.navbar__mobile__list__item {
+    max-width: 160px;
+    width: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color:var(--text_colour_1);
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.social {
+margin-left:20px;
+margin-right:0px;
+}
+
+.navbar__item i{
+  font-weight:400;
+  font-size:1.5rem;
+}
+
+.navbar__item:hover,
+.navbar__item.active,
+.navbar__mobile__list__item:hover,
+.navbar__mobile__list__item.active {
+    letter-spacing: 3px;
+}
+
+.navbar__item::after,
+.navbar__item::before,
+.navbar__item.active::after,
+.navbar__item.active::before,
+.navbar__mobile__list__item::after,
+.navbar__mobile__list__item::before,
+.navbar__mobile__list__item.active::after,
+.navbar__mobile__list__item.active::before {
+    backface-visibility: hidden;
+    border: 1px solid rgba(76, 128, 129, 0);
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 5px auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.navbar__item:hover::after,
+.navbar__item:hover::before,
+.navbar__item.active::after,
+.navbar__item.active::before,
+.navbar__mobile__list__item:hover::after,
+.navbar__mobile__list__item:hover::before,
+.navbar__mobile__list__item.active::after,
+.navbar__mobile__list__item.active::before {
+    backface-visibility: hidden;
+    border-color: var(--text_colour_1);
+    transition: width 350ms ease-in-out;
+    width: 70%;
+}
+
+.mobile__menu,
+.hidden,
+.navbar__mobile__list {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .mobile__menu, .mobile__menu.active::before, .mobile__menu.active::after {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        right: 20px;
+        margin-bottom: 5px;
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        padding: 2px;
+        color: var(--text_colour_1);
+        font-weight:bold;
+        transition: all 0.5s;
+        z-index:9999;
+    }
+
+    .navbar__list {
+        display: none;
+    }
+    .navbar__mobile,
+    .navbar__mobile__list {
+        display: block;
+        z-index:20;
+    }
+   
+   
+}
+
+@media screen and (max-width:699px) and (min-width:300px){
+  .logo1, .logo2{
+    display:none;
+  }
+  .navbar__logo{
+    margin-left:20px;
+  } 
+  .logo3{
+    display:block;
+  }
+}
+
+@media screen and (max-width:1100px) and (min-width:700px){
+  .logo1, .logo3{
+    display:none;
+  }
+  .navbar{
+    width:100%;
+    height:130px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar__logo{
+    margin-bottom:60px;
+    margin-left:0px;
+  } 
+  .navbar__list{
+    left:auto;
+    right:auto;
+    position: absolute;
+  }
+  
+  .logo2{
+    display:block;
+  }
+}
+
+@media screen and (max-width:1400px) and (min-width:1101px){
+  .logo1, .logo3{
+    display: none;
+  }
+  .logo2{
+    display:block;
+  }
+}

@@ -2,18 +2,23 @@ import React from 'react'
 
 import { Outlet } from "react-router-dom";
 import Navbar from '../components/Navbar';
+import '../index.css';
 
 const MainLayout = () => {
   return (
     <>
-      <div className='h-full'>
-         
-      
-        <Navbar/>
-        <Outlet/>
-      
+      <div className='container'>
+        <div className="layout">
+
+          <Navbar/>
+
+          <div className="page">
+            
+            <Outlet/>
+     
+          </div>
+        </div>
       </div>
-      
 
     </>
   )

@@ -1,57 +1,55 @@
-import React from 'react'
+import React from 'react';
+import '../assets/style/design.css';
 
-import Designs from "../assets/data/design.json"
+import { Link } from 'react-router-dom';
+
+import DesignInterface from '../assets/data/design.json';
 
 const Design = () => {
   return (
-    <div name='design' className='w-full h-full text-pink-500 bg-[#f8f1ff] mx-auto'>
+    <section className='page__design'>
+      <div className='page__design__content'>
 
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-
-        <div className='mt-[100px]'>
-          <p className='text-4xl font-bold inline border-b-4 border-[#87bba2] text-[#232c33]'>
-            Design
-          </p>
-          <p className='py-6 text-[#637e92] font-medium'>Check out some of my recent work</p>
+        <div className="page__design__content__header">
+          <div className='page__design__content__header__title'>
+            <span>Design Projects</span>  
+          </div>
+          <div className="page__design__content__header__text">
+            <span>
+              <i>
+              I enjoy designing various projects where I can showcase my talents and creativity in different fields. While paying attention to aesthetics in my designs, I also take care to ensure that they are functional, usable and accessible. I always strive to produce high-quality and user-friendly solutions that meet the needs and expectations of the users.
+              </i>
+            </span>
+          </div>
         </div>
+          
 
-        {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
-          {/* grid item */}
-
-          {Designs.map((item, index) => (
-            <div 
-              key={index} 
-              style={{backgroundImage:`url(${item.image})`}} 
-              className='shadow-sm shadow-spareLight group container rounded-md flex justify-center items-center mx-auto content-div'
-            >
- 
-              {/* hover effects */}
-              <div className='opacity-0 group-hover:opacity-100 text-center mx-6 mt-16'>
-                
-                <span className='text-lg font-bold tracking-wider text-spareDark mx-auto'>
-                  {item.title}
-                </span>
- 
-                <div className='mt-4'>
-                  <a href={item.url} target="_blank" rel="noreferrer noopenner">
-                    <button className='text-center rounded-lg py-4 px-24 m-2 font-bold text-lg bg-branch border-2  text-secondary'>
-                      View
-                    </button>
-                  </a>
+          <div className="page__design__content__card">
+            {DesignInterface.map(({image, title, url}, index) =>(
+              <div className='page__design__content__card__item' key={`DesignInterface-${index}`}>
+                <div className="page__design__content__card__item__image" key={`DesignInterface-${index}`}>
+                  <img src={image} alt="design" />
+                </div>
+                <div className='page__design__content__card__item__title'>
+                  <span>{title}</span>
+                </div>
+                <div className='page__design__content__card__button'>
+                  <Link to={url} rel="noreferrer noopenner" target="_blank" className='card__button__design button link'>
+                    <span className='label'>
+                      VIEW
+                    </span>
+                    <span className='area'>
+                      <span></span>
+                    </span>
+                  </Link>
                 </div>
               </div>
- 
-            </div>
-          )).reverse()}
-
-
-        </div>
-
-      </div>
+            )).reverse()}
+          </div>
+         
       
-    </div>
+      </div>
+    </section>
   )
 }
 

@@ -1,0 +1,123 @@
+.page__home{
+  background: url(../../../public/images/background/bg-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color:var(--bg_colour);
+  width:100%;
+  height:100vh;
+  z-index:1;
+  position:fixed;
+  left:0;
+  top:0;
+  overflow: hidden;
+}
+
+p, h1, h2{
+  margin:0;
+  padding:0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-indent: 0;
+  text-align: left;
+}
+
+.page__home__content{
+  margin:0px auto 0 auto;
+  padding:0 2rem;
+  max-width:1000px;
+  width:100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.page__home__content__container{
+  padding:30px 30px;
+}
+
+.page__home__content__container p:nth-child(1){
+  color:rgba(21, 21, 21, 0.70);
+  font-weight:var(--weight_bold);
+  font-size:1.5rem;
+}
+
+.page__home__content__container h1{
+  font-weight: var(--weight_bold);
+  color:rgba(21, 21, 21, 0.9);
+}
+
+.page__home__content__container h2{
+  font-weight:var(--weight_normal);
+  color:rgba(21, 21, 21, 0.85);
+}
+
+.page__home__content__container p{
+  color:rgba(21, 21, 21, 0.9);
+  font-weight: var(--weight_medium);
+  max-width: 700px;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding:1rem 0;
+}
+
+@media screen and (min-width:300px) and (max-width:1500px){
+  .page__home{
+    width:100%;
+    height:100%;
+    background-size: contain;
+    background-position: left bottom;
+  }
+  .page__home__content__container{
+    padding:0 2rem;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+  .page__home__content{
+    padding-top:80px;
+  }
+.page__home__content__container p:nth-child(1){
+  line-height:0.5rem;
+}
+  .page__home__content__container h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .page__home__content__container h2{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .page__home__content__container p{
+    line-height: 1.5rem;
+    padding:0.5rem 0 1rem 0;
+  }
+}
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+  .page__home__content{
+    padding-top:130px;
+  }
+}
+
+@media screen and (min-width:1201px){
+  .page__home__content{
+    padding-top:80px;
+  }
+}
+
+@media screen and (min-width:701px) {
+  .page__home__content__container p:nth-child(1){
+    line-height: 0.5rem;
+  }
+  .page__home__content__container h1{
+    font-size:4.5rem;
+    line-height: 1;
+  }
+  .page__home__content__container h2{
+    font-size:4.5rem;
+    line-height: 1;
+  }
+}
