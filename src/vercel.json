@@ -1,0 +1,22 @@
+{
+  "headers": [
+    {
+      "source": "/design/:path*",
+      "headers": [
+        {
+          "key": "target",
+          "value": "_blank"
+        }
+      ]
+    },
+    {
+      "source": "/coding/:path*",
+      "headers": [
+        {
+          "key": "target",
+          "value": "_blank"
+        }
+      ]
+    }
+  ]
+}
