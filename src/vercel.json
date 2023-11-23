@@ -1,20 +1,43 @@
 {
   "headers": [
     {
-      "source": "/design/:path*",
+      "source": "/service-worker.js",
       "headers": [
         {
-          "key": "target",
-          "value": "_blank"
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     },
     {
-      "source": "/coding/:path*",
+      "source": "/(.*)",
       "headers": [
         {
-          "key": "target",
-          "value": "_blank"
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "query",
+          "key": "authorized"
+        }
+      ],
+      "headers": [
+        {
+          "key": "x-authorized",
+          "value": "true"
         }
       ]
     }
