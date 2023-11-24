@@ -32,7 +32,7 @@ const Coding = () => {
                   </div>
                   <div className='page__coding__content__card__button'>
                  
-                        <a href={url1}  rel="noreferrer noopenner" target="_blank" className='button link'>
+                        <a href={url2}  rel="noreferrer noopenner" target="_blank" className='button link'>
                             <span className="label">
                               <i className='fa fa-github'></i>
                             </span>
@@ -43,7 +43,7 @@ const Coding = () => {
                         </a>
                  
                   
-                        <a href={url2}  rel="noreferrer noopenner" target="_blank" className='button link'>
+                        <a href={url1}  rel="noreferrer noopenner" target="_blank" className='button link'>
                             <span className="label">
                                 View
                             </span>
