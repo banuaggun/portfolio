@@ -34,14 +34,14 @@ const Design = () => {
                   <span>{title}</span>
                 </div>
                 <div className='page__design__content__card__button'>
-                  <Link to={url} rel="noreferrer noopenner" target="_blank" className='card__button__design button link'>
+                  <a href={url} rel="noreferrer noopenner" target="_blank" className='card__button__design button link'>
                     <span className='label'>
                       VIEW
                     </span>
                     <span className='area'>
                       <span></span>
                     </span>
-                  </Link>
+                  </a>
                 </div>
               </div>
             )).reverse()}
