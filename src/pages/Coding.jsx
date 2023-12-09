@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/style/design.css';
 import Code from '../assets/data/coding.json';
-import { Link } from 'react-router-dom';
 
 const Coding = () => {
 

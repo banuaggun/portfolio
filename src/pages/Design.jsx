@@ -1,8 +1,5 @@
 import React from 'react';
 import '../assets/style/design.css';
-
-import { Link } from 'react-router-dom';
-
 import DesignInterface from '../assets/data/design.json';
 
 const Design = () => {
