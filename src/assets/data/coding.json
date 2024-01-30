@@ -47,5 +47,12 @@
     "title": "React Blog App",
     "url1":"https://react-blog-app-banuaggun.vercel.app/",
     "url2":"https://github.com/banuaggun/react-blog-app"
+  },
+  {
+    "id":8,
+    "image":"../images/coding/ExpenseTracker.jpeg",
+    "title":"Expense Tracker",
+    "url1":"https://expense-tracker-banuaggun.vercel.app/",
+    "url2":"https://github.com/banuaggun/expense-tracker"
   }
 ]
