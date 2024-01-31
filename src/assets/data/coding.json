@@ -8,48 +8,34 @@
   },
   {
     "id":2,
-    "image":"../images/coding/SubscribeNewsletter.png",
-    "title": "Subscribe Newsletter",
-    "url1":"https://www.behance.net/gallery/118447587/Subscribe-Newsletter",
-    "url2":"https://github.com/banuaggun/subscribe"
-  },
-  {
-    "id":3,
     "image":"../images/coding/CustomerSatisfactionSurvey.jpg",
     "title": "Customer Satisfaction Survey",
     "url1":"https://www.behance.net/gallery/120441177/Customer-Satisfaction-Survey",
     "url2":"https://github.com/banuaggun/customer-satisfaction-survey"
   },
   {
-    "id":4,
-    "image":"../images/coding/DashboardDesign.png",
-    "title": "Dashboard Design",
-    "url1":"https://www.behance.net/gallery/125995097/Dashboard-Design",
-    "url2":"https://github.com/banuaggun/dashboard-design"
-  },
-  {
-    "id":5,
+    "id":3,
     "image": "../images/coding/colorpicker.png",
     "title":"React Todo App",
     "url1":"https://www.behance.net/gallery/154747945/React-Todo-App",
     "url2":"https://github.com/banuaggun/react-todo-app"
   },
   {
-    "id":6,
+    "id":4,
     "image": "../images/coding/ReactMemoryGame.jpeg",
     "title": "React Memory Game",
     "url1": "https://react-memory-game-banuaggun.vercel.app/",
     "url2": "https://github.com/banuaggun/react-memory-game"
   },
   {
-    "id":7,
+    "id":5,
     "image":"../images/coding/reactBlogApp.jpeg",
     "title": "React Blog App",
     "url1":"https://react-blog-app-banuaggun.vercel.app/",
     "url2":"https://github.com/banuaggun/react-blog-app"
   },
   {
-    "id":8,
+    "id":6,
     "image":"../images/coding/ExpenseTracker.jpeg",
     "title":"Expense Tracker",
     "url1":"https://expense-tracker-banuaggun.vercel.app/",
