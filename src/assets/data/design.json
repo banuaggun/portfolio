@@ -2,78 +2,91 @@
   {
     "id":1,
     "image":"../images/design/SubscribeNewsletter.png",
+    "imagetext":"Subscribe Newsletter - Portfolio Banu Ağgün",
     "title":"Subscribe Newsletter",
     "url":"https://www.behance.net/gallery/118447587/Subscribe-Newsletter"
   },
   {
     "id":2,
     "image":"../images/design/DashboardDesign.png",
+    "imagetext":"Dashboard Design - Portfolio Banu Ağgün",
     "title":"Dashboard Design",
     "url":"https://www.behance.net/gallery/125995097/Dashboard-Design"
   },
   {
     "id":3,
     "image":"../images/design/EventsApp.png",
+    "imagetext":"Events App - Portfolio Banu Ağgün",
     "title": "Events App",
     "url":"https://www.behance.net/gallery/132579353/Events-App"
   },
   {
     "id":4,
     "image":"../images/design/ResponsiveBlogPost.png",
+    "imagetext":"Responsive Blog Post (Suitable Color Blindness)",
     "title":"Responsive Blog Post (Suitable Color Blindness)",
     "url":"https://www.behance.net/gallery/135201585/Responsive-Blog-Post-%28Suitable-Color-Blindness%29"
   },
   {
     "id":5,
     "image":"../images/design/CryptoApp.png",
+    "imagetext":"Crypto App - Portfolio Banu Ağgün",
     "title":"Crypto App",
     "url":"https://www.behance.net/gallery/140030687/Crypto-App"
   },
   {
     "id":6,
     "image":"../images/design/MakeupProducts.png",
+    "imagetext":"Makeup Products Shopping App - Portfolio Banu Ağgün",
     "title":"Makeup Products Shopping App",
     "url":"https://www.behance.net/gallery/144242497/Makeup-Products-Shopping-App"
   },
   {
     "id":7,
     "image":"../images/design/BlogApp.png",
+    "imagetext":"Blog App (Vissual Ui Design) - Portfolio Banu Ağgün",
     "title": "Blog App (Visual Ui Design)",
     "url":"https://www.behance.net/gallery/145792623/Blog-App-%28Visual-Ui-Design%29"
   },
   {
     "id":8,
     "image": "../images/design/BookStoreApp.png",
+    "imagetext":"Book Store App - Portfolio Banu Ağgün",
     "title": "Book Store App",
     "url": "https://www.behance.net/gallery/158162059/Book-Store-App"
   },
   {
     "id":9,
     "image":"../images/design/PosterDesign.png",
+    "imagetext":"Coffee Illustration Poster - Portfolio Banu Ağgün",
     "title": "Coffee Illustration Poster",
     "url": "https://www.behance.net/gallery/158471015/Coffee-Illustration-Poster"
   },
   {
     "id":10,
     "image":"../images/design/Frame.png",
+    "imagetext":"Schedule Management With Calendar - Portfolio Banu Ağgün",
     "title":"Schedule Management With Calendar",
     "url":"https://www.behance.net/gallery/159878081/Schedule-Management-With-Calendar"
   },
   {
     "id":11,
     "image":"../images/design/FlightBooking.png",
+    "imagetext":"Flight Booking App - Portfolio Banu Ağgün",
     "title":"Flight Booking App",
     "url":"https://www.behance.net/gallery/166685693/Flight-Booking-App"
   },
   {
     "id":12,
     "image":"../images/design/WalletDashboard.png",
+    "imagetext":"Wallet Dashboard - Portfolio Banu Ağgün",
     "title":"Wallet Dashboard",
     "url":"https://www.behance.net/gallery/174893753/Wallet-Dashboard"
   },
   {
     "id":13,
     "image":"../images/design/LandingPage.png",
+    "imagetext":"Blog App Landing Page - Portfolio Banu Ağgün",
     "title":"Blog App Landing Page",
     "url":"https://www.behance.net/gallery/185009683/Blog-App-Landing-Page"
   }

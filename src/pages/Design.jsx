@@ -22,10 +22,10 @@ const Design = () => {
           
 
           <div className="page__design__content__card">
-            {DesignInterface.map(({image, title, url}, index) =>(
+            {DesignInterface.map(({image, imagetext, title, url}, index) =>(
               <div className='page__design__content__card__item' key={`DesignInterface-${index}`}>
                 <div className="page__design__content__card__item__image" key={`DesignInterface-${index}`}>
-                  <img src={image} alt="design" />
+                  <img src={image} alt={imagetext} />
                 </div>
                 <div className='page__design__content__card__item__title'>
                   <span>{title}</span>

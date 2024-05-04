@@ -21,10 +21,10 @@ const Coding = () => {
         </div>
           
           <div className='page__coding__content__card'>
-            {Code.map(({image, title, url1, url2}, index) => (
+            {Code.map(({image, imagetext, title, url1, url2}, index) => (
                 <div className='page__coding__content__card__item' key={`Code-${index}`}>
                   <div className="page__coding__content__card__item__image" key={`Code-${index}`}>
-                    <img src={image} alt="coding" />
+                    <img src={image} alt={imagetext} />
                   </div>
                   <div className="page__coding__content__card__item__title">
                     <span>{title}</span>

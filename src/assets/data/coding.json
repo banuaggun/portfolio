@@ -2,6 +2,7 @@
   {
     "id":1,
     "image":"../images/coding/ResponsiveEmailTemplate.png",
+    "imagetext":"Responsive Email Template - Portfolio Banu Ağgün",
     "title": "Responsive Email Template",
     "url1":"https://www.behance.net/gallery/110319711/Responsive-Email-Template",
     "url2":"https://github.com/banuaggun/responsive-email-template"
@@ -9,6 +10,7 @@
   {
     "id":2,
     "image":"../images/coding/CustomerSatisfactionSurvey.jpg",
+    "imagetext":"Customer Satisfaction Survey - Portfolio Banu Ağgün",
     "title": "Customer Satisfaction Survey",
     "url1":"https://www.behance.net/gallery/120441177/Customer-Satisfaction-Survey",
     "url2":"https://github.com/banuaggun/customer-satisfaction-survey"
@@ -16,6 +18,7 @@
   {
     "id":3,
     "image": "../images/coding/colorpicker.png",
+    "imagetext":"Color Picker - Portfolio Banu Ağgün",
     "title":"React Todo App",
     "url1":"https://www.behance.net/gallery/154747945/React-Todo-App",
     "url2":"https://github.com/banuaggun/react-todo-app"
@@ -23,6 +26,7 @@
   {
     "id":4,
     "image": "../images/coding/ReactMemoryGame.jpeg",
+    "imagetext":"React Memory Game - Portfolio Banu Ağgün",
     "title": "React Memory Game",
     "url1": "https://react-memory-game-banuaggun.vercel.app/",
     "url2": "https://github.com/banuaggun/react-memory-game"
@@ -30,6 +34,7 @@
   {
     "id":5,
     "image":"../images/coding/reactBlogApp.jpeg",
+    "imagetext":"React Blog App - Portfolio Banu Ağgün",
     "title": "React Blog App",
     "url1":"https://react-blog-app-banuaggun.vercel.app/",
     "url2":"https://github.com/banuaggun/react-blog-app"
@@ -37,8 +42,17 @@
   {
     "id":6,
     "image":"../images/coding/ExpenseTracker.jpeg",
+    "imagetext":"Expense Tracker - Portfolio Banu Ağgün",
     "title":"Expense Tracker",
     "url1":"https://expense-tracker-banuaggun.vercel.app/",
     "url2":"https://github.com/banuaggun/expense-tracker"
+  },
+  {
+    "id":7,
+    "image":"../images/coding/english-dictionary-example.png",
+    "imagetext":"English Dictionary - Portfolio Banu Ağgün",
+    "title":"English Dictionary",
+    "url1":"https://english-dictionary-banuagguns-projects.vercel.app/",
+    "url2":"https://github.com/banuaggun/english-dictionary"
   }
 ]
