@@ -5,11 +5,13 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Design from './pages/Design'
 import Coding from './pages/Coding'
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   return (
     
       <BrowserRouter>
+        <ScrollToTop />
        <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
