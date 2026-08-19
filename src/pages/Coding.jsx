@@ -21,43 +21,37 @@ const Coding = () => {
         </div>
           
           <div className='page__coding__content__card'>
-            {Code.map(({image, imagetext, title, url1, url2}, index) => (
-                <div className='page__coding__content__card__item' key={`Code-${index}`}>
-                  <div className="page__coding__content__card__item__image" key={`Code-${index}`}>
-                    <img src={image} alt={imagetext} />
-                  </div>
-                  <div className="page__coding__content__card__item__title">
-                    <span>{title}</span>
-                  </div>
-                  <div className='page__coding__content__card__button'>
-                 
-                        <a href={url2}  rel="noreferrer noopenner" target="_blank" className='button link'>
-                            <span className="label">
-                              <i className='fa fa-github'></i>
-                            </span>
-                            <span className="area">
-                                <span></span>
-                            </span>
-                          
-                        </a>
-                 
-                  
-                        <a href={url1}  rel="noreferrer noopenner" target="_blank" className='button link'>
-                            <span className="label">
-                                View
-                            </span>
-                            <span className="area">
-                                <span></span>
-                            </span>
-                        </a>
-                      
-                
-                   
-                  </div>
-          
-                  </div>
-              
-            )).reverse()}
+            {Code.map(({ image, imagetext, title, url1, url2, url3 }, index) => (
+  <div className='page__coding__content__card__item' key={`Code-${index}`}>
+    <div className='page__coding__content__card__item__image'>
+      <img src={image} alt={imagetext} />
+    </div>
+    <div className='page__coding__content__card__item__title'>
+      <span>{title}</span>
+    </div>
+    <div className='page__coding__content__card__button'>
+      {url2 && (
+        <a href={url2} rel="noreferrer noopener" target="_blank" className='button link'>
+          <span className="label"><i className="fa fa-github"></i></span>
+          <span className="area"><span></span></span>
+        </a>
+      )}
+      {url1 && (
+        <a href={url1} rel="noreferrer noopener" target="_blank" className='button link'>
+          <span className="label">View</span>
+          <span className="area"><span></span></span>
+        </a>
+      )}
+      {url3 && (
+        <a href={url3} rel="noreferrer noopener" target="_blank" className='button link'>
+          <span className="label"><i className='fa fa-behance'></i></span>
+          <span className="area"><span></span></span>
+        </a>
+      )}
+    </div>
+  </div>
+)).reverse()}
+
           </div>
       </div>
     </section>

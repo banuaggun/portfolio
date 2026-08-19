@@ -74,9 +74,17 @@
   {
     "id":10, 
     "image":"../images/coding/invoice-app-react.png", 
-    "imagetext":"Invoice App Reacr - Portfolio Banu Ağgün",
+    "imagetext":"Invoice App React - Portfolio Banu Ağgün",
     "title":"Invoice App React",
     "url1":"https://invoice-app-react-amber.vercel.app/",
     "url2":"https://github.com/banuaggun/invoice-app-react"
+  }, 
+  {
+    "id":11, 
+    "image":"../images/coding/LandingPageCover.png", 
+    "imagetext":"Tree Foundation Environmental Platform - Portfolio Banu Ağgün",
+    "title":"Tree Foundation Environmental Platform",
+    "url1":"https://landing-page-khaki-five-41.vercel.app/",
+    "url2":"https://github.com/banuaggun/landing-page"
   }
 ]
