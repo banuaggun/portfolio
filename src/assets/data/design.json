@@ -3,119 +3,155 @@
     "id":1,
     "image":"../images/design/SubscribeNewsletter.png",
     "imagetext":"Subscribe Newsletter - Portfolio Banu Ağgün",
-    "title":"Subscribe Newsletter",
-    "url":"https://www.behance.net/gallery/118447587/Subscribe-Newsletter"
+    "title":"Subscribe Newsletter", 
+    "subtitle":"A futuristic newsletter subscription block.",
+    "url1":"https://www.behance.net/gallery/118447587/Subscribe-Newsletter", 
+    "featured":false
   },
   {
     "id":2,
     "image":"../images/design/DashboardDesign.png",
     "imagetext":"Dashboard Design - Portfolio Banu Ağgün",
-    "title":"Dashboard Design",
-    "url":"https://www.behance.net/gallery/125995097/Dashboard-Design"
+    "title":"Dashboard Design", 
+    "subtitle":"A web layout for tracking customer data tables.",
+    "url1":"https://www.behance.net/gallery/125995097/Dashboard-Design", 
+    "featured":false
   },
   {
     "id":3,
     "image":"../images/design/EventsApp.png",
     "imagetext":"Events App - Portfolio Banu Ağgün",
-    "title": "Events App",
-    "url":"https://www.behance.net/gallery/132579353/Events-App"
+    "title": "Events App", 
+    "subtitle":"A lively app concept tracking online courses and events.",
+    "url1":"https://www.behance.net/gallery/132579353/Events-App", 
+    "featured":false
   },
   {
     "id":4,
     "image":"../images/design/ResponsiveBlogPost.png",
     "imagetext":"Responsive Blog Post (Suitable Color Blindness)",
-    "title":"Responsive Blog Post (Suitable Color Blindness)",
-    "url":"https://www.behance.net/gallery/135201585/Responsive-Blog-Post-%28Suitable-Color-Blindness%29"
+    "title":"Responsive Blog Post", 
+    "subtitle":"An accessible web layout optimized for readability.",
+    "url1":"https://www.behance.net/gallery/135201585/Responsive-Blog-Post-%28Suitable-Color-Blindness%29", 
+    "featured":false
   },
   {
     "id":5,
     "image":"../images/design/CryptoApp.png",
     "imagetext":"Crypto App - Portfolio Banu Ağgün",
-    "title":"Crypto App",
-    "url":"https://www.behance.net/gallery/140030687/Crypto-App"
+    "title":"Crypto App", 
+    "subtitle":"A mobile interface tracking digital asset markets.",
+    "url1":"https://www.behance.net/gallery/140030687/Crypto-App", 
+    "featured":false
   },
   {
     "id":6,
     "image":"../images/design/MakeupProducts.png",
     "imagetext":"Makeup Products Shopping App - Portfolio Banu Ağgün",
-    "title":"Makeup Products Shopping App",
-    "url":"https://www.behance.net/gallery/144242497/Makeup-Products-Shopping-App"
+    "title":"Makeup Products Shopping App", 
+    "subtitle":"A pastel-toned mobile interface for digital storefronts.",
+    "url1":"https://www.behance.net/gallery/144242497/Makeup-Products-Shopping-App", 
+    "featured":false
   },
   {
     "id":7,
     "image":"../images/design/BlogApp.png",
     "imagetext":"Blog App (Vissual Ui Design) - Portfolio Banu Ağgün",
-    "title": "Blog App (Visual Ui Design)",
-    "url":"https://www.behance.net/gallery/145792623/Blog-App-%28Visual-Ui-Design%29"
+    "title": "Blog App (Visual Ui Design)", 
+    "subtitle":"A mobile interface layout with dual-theme aesthetics.",
+    "url1":"https://www.behance.net/gallery/145792623/Blog-App-%28Visual-Ui-Design%29", 
+    "featured":false
   },
   {
     "id":8,
     "image": "../images/design/BookStoreApp.png",
     "imagetext":"Book Store App - Portfolio Banu Ağgün",
-    "title": "Book Store App",
-    "url": "https://www.behance.net/gallery/158162059/Book-Store-App"
+    "title": "Book Store App", 
+    "subtitle":"A clean mobile interface cataloging digital literature.",
+    "url1": "https://www.behance.net/gallery/158162059/Book-Store-App",
+    "featured":false
   },
   {
     "id":9,
     "image":"../images/design/PosterDesign.png",
     "imagetext":"Coffee Illustration Poster - Portfolio Banu Ağgün",
-    "title": "Coffee Illustration Poster",
-    "url": "https://www.behance.net/gallery/158471015/Coffee-Illustration-Poster"
+    "title": "Coffee Illustration Poster", 
+    "subtitle":"A vector illustration based on flat design.",
+    "url1": "https://www.behance.net/gallery/158471015/Coffee-Illustration-Poster", 
+    "featured":true
   },
   {
     "id":10,
     "image":"../images/design/Frame.png",
     "imagetext":"Schedule Management With Calendar - Portfolio Banu Ağgün",
-    "title":"Schedule Management With Calendar",
-    "url":"https://www.behance.net/gallery/159878081/Schedule-Management-With-Calendar"
+    "title":"Schedule Management With Calendar", 
+    "subtitle":"An isometric 3D interface for workflow organization.",
+    "url1":"https://www.behance.net/gallery/159878081/Schedule-Management-With-Calendar",
+    "featured":false
   },
   {
     "id":11,
     "image":"../images/design/FlightBooking.png",
     "imagetext":"Flight Booking App - Portfolio Banu Ağgün",
-    "title":"Flight Booking App",
-    "url":"https://www.behance.net/gallery/166685693/Flight-Booking-App"
+    "title":"Flight Booking App", 
+    "subtitle":"An in-depth UI/UX analysis of flight reservations.",
+    "url1":"https://www.behance.net/gallery/166685693/Flight-Booking-App", 
+    "featured":false
   },
   {
     "id":12,
     "image":"../images/design/WalletDashboard.png",
     "imagetext":"Wallet Dashboard - Portfolio Banu Ağgün",
-    "title":"Wallet Dashboard",
-    "url":"https://www.behance.net/gallery/174893753/Wallet-Dashboard"
+    "title":"Wallet Dashboard", 
+    "subtitle":"A user-centric dashboard for tracking mutual funds and investments.",
+    "url1":"https://www.behance.net/gallery/174893753/Wallet-Dashboard", 
+    "featured":false
   },
   {
     "id":13,
     "image":"../images/design/LandingPage.png",
     "imagetext":"Blog App Landing Page - Portfolio Banu Ağgün",
-    "title":"Blog App Landing Page",
-    "url":"https://www.behance.net/gallery/185009683/Blog-App-Landing-Page"
+    "title":"Blog App Landing Page", 
+    "subtitle":"A conversion-focused product showcase landing page.",
+    "url1":"https://www.behance.net/gallery/185009683/Blog-App-Landing-Page", 
+    "featured":false
   },
   {
     "id":14,
     "image":"../images/design/ResponsiveNewspaper.png",
     "imagetext":"Responsive Newspaper - Portfolio Banu Ağgün",
-    "title":"Responsive Newspaper",
-    "url":"https://www.behance.net/gallery/218361985/Responsive-Newspaper"
+    "title":"Responsive Newspaper", 
+    "subtitle":"A structured media layout with unique page themes.",
+    "url1":"https://www.behance.net/gallery/218361985/Responsive-Newspaper", 
+    "featured":false
   },
   {
     "id":15,
     "image":"../images/design/smart-home-app-kapak-sayfası-1x.png",
     "imagetext":"Smart Home App - Portfolio Banu Ağgün",
-    "title":"Smart Home App",
-    "url":"https://www.behance.net/gallery/227760069/Smart-Home-App"
+    "title":"Smart Home App", 
+    "subtitle":"A comprehensive UI/UX case study for mobile automation.",
+    "url1":"https://www.behance.net/gallery/227760069/Smart-Home-App", 
+    "featured":true
   },
   {
     "id":16,
     "image":"../images/design/SmartInbox.png",
     "imagetext":"Smart Inbox - Portfolio Banu Ağgün",
-    "title":"Smart Inbox",
-    "url":"https://www.behance.net/gallery/236915751/Smart-Inbox"
+    "title":"Smart Inbox", 
+    "subtitle":"An AI-powered workspace optimized for digital communication.",
+    "url1":"https://www.behance.net/gallery/236915751/Smart-Inbox", 
+    "featured":true
   }, 
   {
     "id":17, 
-    "image":"../images/design/LandingPageCover.png", 
-    "imagetext":"Tree Foundation Environmental Platform - Portfolio Banu Ağgün", 
+    "image":"../images/coding/TreeFoundation.png", 
+    "imagetext":"Tree Foundation Environmental Platform Landing Page - Portfolio Banu Ağgün",
     "title":"Tree Foundation Environmental Platform", 
-    "url":"https://www.behance.net/gallery/252660503/Green-Foundation-Landing-Page"
+    "subtitle":"A multi-page eco-platform optimized for sustainable digital experiences.", 
+    "url1":"https://www.behance.net/gallery/252660503/Tree-Foundation-Environmental-Platform",
+    "url2":"https://github.com/banuaggun/landing-page", 
+    "url3":"https://landing-page-khaki-five-41.vercel.app/",
+    "featured":false
   }
 ]

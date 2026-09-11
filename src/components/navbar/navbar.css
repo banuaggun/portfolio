@@ -7,14 +7,14 @@
   position:fixed;
   z-index:10;
   margin-bottom: 100px;
-  background-color: var(--bg_colour);
+  background-color:#f9fcff;
   box-shadow: 0 0px 8px rgba(142, 142, 142, 0.5);
 }
 
 .navbar__logo img.logo{
   max-width:100%;
-  height: 46px; /* veya istediğin sabit bir değer */
-  object-fit: contain; /* bozulmayı önler */
+  height: 46px; 
+  object-fit: contain; 
   margin-bottom:0px;
   border:0;
   box-shadow: none;
@@ -75,27 +75,28 @@ img.logo3{
   list-style: none;
   padding: 10px;
   background-color:var(--bg_colour);
-  border-radius:8px;
+  border-radius:8px; 
 }
 
 .navbar__item, 
 .navbar__mobile__list__item{
   max-width:160px;
-  width:100%;
+  width:100%; 
   letter-spacing: 0px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1rem;
-  text-decoration: none;
+  font-size: 1rem; 
+  text-decoration: none; 
   margin:0 20px;
-  color:var(--text_colour_1);
+  color:var(--text_colour_1); 
 }
 
 
 .social{
-  margin-left:20ox;
-  margin-right:0;
+  margin-left:20px;
+  margin-right:0; 
+  padding:0;
 }
 
 .links{
@@ -108,6 +109,7 @@ img.logo3{
   font-weight:400;
   font-size:1.5rem;
 }
+
 
 .navbar__item:hover, 
 .navbar__item.active, 
@@ -147,6 +149,11 @@ img.logo3{
   border-color: var(--text_colour_1);
   transition: width 350ms ease-in-out;
   width: 70%;
+} 
+
+.navbar__item:focus, 
+.navbar__mobile__list__item:focus {
+  outline: none;
 }
 
 .mobile__menu,

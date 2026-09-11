@@ -1,0 +1,525 @@
+.card {
+  margin: 0 auto;
+  position: relative;
+  background: var(--bg_number);
+  box-shadow: 0 0 10px rgba(129, 139, 151, 0.6);
+  border-radius: 8px;
+}
+
+.card .card-top {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-areas:
+    "title head"
+    "title .....";
+  transition:
+    grid-template-columns 0.6s linear,
+    grid-template-rows 0.6s linear;
+}
+
+.card .card-top .title {
+  grid-area: title;
+  background: var(--bg_card);
+  border-radius: 8px 0 0 0;
+}
+
+.card .card-top .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+}
+
+.card .card-top .head span {
+  display: block;
+  transform: rotate(180deg);
+  transition: transform 0.6s linear;
+}
+.card:hover .card-top .head span {
+  transform: rotate(270deg);
+  transition: transform 0.6s linear;
+}
+.card .image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 8px 0 8px 0;
+  box-shadow: -2px -2px 4px rgba(26, 54, 93, 0.6);
+}
+
+.card .info {
+  background-color: var(--bg_info);
+  box-shadow: 1px 2px 2px rgba(110, 134, 139, 1);
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: flex-start;
+  transition: bottom 0.6s linear;
+  width: 100%;
+}
+
+.card .info p.name {
+  display: block;
+  font-family: var(--dmsans);
+  font-weight: var(--weight_normal);
+  letter-spacing: 0.4px;
+  margin: 0px 0px 6px 0px;
+}
+.card .info .deets {
+  font-family: var(--dmsans);
+  text-transform: none;
+  letter-spacing: 0.4px;
+  margin:0 0 16px 0;
+}
+
+.button-area {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 46px;
+  width: max-content;
+  max-width: calc(100% - 32px);
+  z-index: 3;
+  transition: bottom 0.6s linear;
+}
+
+.card a.button {
+  height: 36px;
+  min-width: 50px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 3;
+  transition: bottom 0.6s linear;
+  font-size: 18px;
+  font-weight: var(--weight_normal);
+  font-family: var(--dmsans);
+  text-transform: uppercase;
+  line-height: 1;
+  color: #422800;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: var(--bg_badge);
+  box-shadow: #422800 2px 2px 0 0;
+  border: 2px solid var(--badge_colour);
+}
+
+.card a.button .label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card a.button:not(:has(span:empty)) {
+  padding: 0 10px;
+}
+
+.card a.button:not(:last-child) {
+  width: 36px;
+  min-width: 36px;
+  padding: 0;
+}
+
+.card a.button:hover {
+  background: #e7ca74;
+  transition: all 0.6s linear;
+}
+
+.card a.button .label svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 601px) {
+  .card-area {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .card {
+    width: calc(100% - 48px);
+    height: 450px;
+  }
+
+  .card .card-top {
+    display: grid;
+    grid-template-columns: 180px 50px;
+    grid-template-rows: 100px 250px;
+  }
+
+  .card .image {
+    width: calc(100% - 70px);
+    height: 400px;
+  }
+
+  .card .info {
+    width: fit-content;
+    min-height: 120px;
+    padding: 25px 16px 25px 16px;
+    bottom: 60px;
+  }
+
+  .card .info .name {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .card .info .deets {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .button-area {
+    bottom: 45px;
+    left: 16px;
+    gap: 8px;
+  }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 1000px) {
+  .card .card-top {
+    grid-template-columns: 200px 50px;
+    grid-template-rows: 100px 150px;
+  }
+  .card:nth-child(1) .card-top {
+    grid-template-columns: 400px 50px;
+    grid-template-rows: 100px 150px;
+  }
+  .card:hover .card-top {
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 300px;
+    transition:
+      grid-template-columns 0.6s linear,
+      grid-template-rows 0.6s linear;
+  }
+  .card:nth-child(1):hover .card-top {
+    grid-template-columns: 200px 150px;
+    grid-template-rows: 50px 300px;
+    transition:
+      grid-template-columns 0.6s linear,
+      grid-template-rows 0.6s linear;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .card .card-top {
+    grid-template-columns: 300px 50px;
+    grid-template-rows: 100px 150px;
+  }
+  .card:nth-child(1) .card-top {
+    grid-template-columns: 600px 50px;
+    grid-template-rows: 100px 150px;
+  }
+  .card:hover .card-top {
+    grid-template-columns: 250px 150px;
+    grid-template-rows: 50px 300px;
+    transition:
+      grid-template-columns 0.6s linear,
+      grid-template-rows 0.6s linear;
+  }
+  .card:nth-child(1):hover .card-top {
+    grid-template-columns: 500px 150px;
+    grid-template-rows: 50px 300px;
+    transition:
+      grid-template-columns 0.6s linear,
+      grid-template-rows 0.6s linear;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2600px) {
+  .card .card-top {
+    grid-template-columns: 300px 50px;
+    grid-template-rows: 100px 150px;
+  }
+  .card:nth-child(1) .card-top {
+    grid-template-columns: 850px 50px;
+    grid-template-rows: 100px 150px;
+  }
+  .card:hover .card-top {
+    grid-template-columns: 250px 150px;
+    grid-template-rows: 50px 300px;
+    transition:
+      grid-template-columns 0.6s linear,
+      grid-template-rows 0.6s linear;
+  }
+  .card:nth-child(1):hover .card-top {
+    grid-template-columns: 700px 150px;
+    grid-template-rows: 50px 300px;
+    transition:
+      grid-template-columns 0.6s linear,
+      grid-template-rows 0.6s linear;
+  }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 1200px) {
+  .card-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: calc(100% - 128px);
+    margin: 0 auto;
+  }
+  .card:nth-child(1) {
+    flex: 1 1 100%;
+    height: 450px;
+  }
+  .card:nth-child(2),
+  .card:nth-child(3) {
+    flex: 1 1 auto;
+    height: 450px;
+  }
+  .card:nth-child(1) .image {
+    width: 460px;
+    height: 350px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+  .card .image {
+    width: 210px;
+    height: 350px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+
+  .card:nth-child(1):hover .image {
+    width: 560px;
+    height: 400px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+
+  .card:hover .image {
+    width: 260px;
+    height: 400px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+  .card .info {
+    width: fit-content;
+    min-height: 120px;
+    height: 100%;
+    max-height: 120px;
+    padding: 25px;
+    bottom: 80px;
+  }
+  .card:hover .info {
+    bottom: 50px;
+    transition: bottom 0.6s linear;
+  }
+
+  .card .info .name {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .card .info .deets {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card .button-area {
+    bottom: 60px;
+    left: 24px;
+    gap: 20px;
+    transition: bottom 0.6s linear;
+  }
+  .card:hover .button-area {
+    bottom: 30px;
+    transition: bottom 0.6s linear;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .card-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: calc(100% - 160px);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .card:nth-child(1) {
+    flex: 1 1 100%;
+    height: 450px;
+  }
+  .card:nth-child(2),
+  .card:nth-child(3) {
+    flex: 1 1 auto;
+    height: 450px;
+  }
+  .card:nth-child(1) .image {
+    width: 640px;
+    height: 350px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+  .card .image {
+    width: 300px;
+    height: 350px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+
+  .card:nth-child(1):hover .image {
+    width: 900px;
+    height: 400px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+
+  .card:hover .image {
+    width: 340px;
+    height: 400px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  } 
+  .card:nth-child(1) .info{
+    width: fit-content;
+  }
+  .card .info {
+    width: 320px;
+    min-height: 120px;
+    height: 100%;
+    max-height: 120px;
+    padding: 25px;
+    bottom: 80px;
+  }
+  .card:hover .info {
+    bottom: 50px;
+    transition: bottom 0.6s linear;
+  }
+
+  .card .info .name {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .card .info .deets {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card .button-area {
+    bottom: 60px;
+    left: 24px;
+    gap: 20px;
+    transition: bottom 0.6s linear;
+  }
+  .card:hover .button-area {
+    bottom: 30px;
+    transition: bottom 0.6s linear;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 2600px) {
+  .card-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: calc(100% - 200px);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .card:nth-child(1) {
+    flex: 1 1 100%;
+    height: 450px;
+  }
+  .card:nth-child(2),
+  .card:nth-child(3) {
+    flex: 1 1 auto;
+    height: 450px;
+  }
+  .card:nth-child(1) .image {
+    width: 640px;
+    height: 350px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+  .card .image {
+    width: 300px;
+    height: 350px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+
+  .card:nth-child(1):hover .image {
+    width: 900px;
+    height: 400px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+
+  .card:hover .image {
+    width: 340px;
+    height: 400px;
+    transition:
+      width 0.6s linear,
+      height 0.6s linear;
+  }
+  .card:nth-child(1) .info{
+    width: fit-content;
+  }
+  .card .info {
+    width: 320px;
+    min-height: 120px;
+    height: 100%;
+    max-height: 120px;
+    padding: 25px;
+    bottom: 80px;
+  }
+  .card:hover .info {
+    bottom: 50px;
+    transition: bottom 0.6s linear;
+  }
+
+  .card .info .name {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .card .info .deets {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card .button-area {
+    bottom: 60px;
+    left: 24px;
+    gap: 20px;
+    transition: bottom 0.6s linear;
+  }
+  .card:hover .button-area {
+    bottom: 30px;
+    transition: bottom 0.6s linear;
+  }
+}

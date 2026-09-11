@@ -3,88 +3,112 @@
     "id": 1,
     "image": "../images/coding/ResponsiveEmailTemplate.png",
     "imagetext": "Responsive Email Template - Portfolio Banu Ağgün",
-    "title": "Responsive Email Template",
+    "title": "Responsive Email Template", 
+    "subtitle":"A table-based, cross-client responsive email newsletter.",
     "url1": "https://www.behance.net/gallery/110319711/Responsive-Email-Template",
-    "url2": "https://github.com/banuaggun/responsive-email-template"
+    "url2": "https://github.com/banuaggun/responsive-email-template", 
+    "featured":false
   },
   {
     "id": 2,
     "image": "../images/coding/CustomerSatisfactionSurvey.jpg",
     "imagetext": "Customer Satisfaction Survey - Portfolio Banu Ağgün",
-    "title": "Customer Satisfaction Survey",
+    "title": "Customer Satisfaction Survey", 
+    "subtitle":"A multi-page survey interface for customer feedback.", 
     "url1": "https://www.behance.net/gallery/120441177/Customer-Satisfaction-Survey",
-    "url2": "https://github.com/banuaggun/customer-satisfaction-survey"
+    "url2": "https://github.com/banuaggun/customer-satisfaction-survey", 
+    "featured":false
   },
   {
     "id": 3,
     "image": "../images/coding/colorpicker.png",
     "imagetext": "Color Picker - Portfolio Banu Ağgün",
-    "title": "React Todo App",
+    "title": "React Todo App", 
+    "subtitle":"A task management app with highly stylized CSS.",
     "url1": "https://www.behance.net/gallery/154747945/React-Todo-App",
-    "url2": "https://github.com/banuaggun/react-todo-app"
+    "url2": "https://github.com/banuaggun/react-todo-app", 
+    "featured":false
   },
   {
     "id": 4,
     "image": "../images/coding/ReactMemoryGame.jpeg",
     "imagetext": "React Memory Game - Portfolio Banu Ağgün",
-    "title": "React Memory Game",
-    "url1": "https://react-memory-game-banuaggun.vercel.app/",
-    "url2": "https://github.com/banuaggun/react-memory-game"
+    "title": "React Memory Game", 
+    "subtitle":"A card-matching game featuring multiple difficulty levels and themes.",
+    "url2": "https://github.com/banuaggun/react-memory-game", 
+    "url3":"https://react-memory-game-banuaggun.vercel.app/",
+    "featured":false
   },
   {
     "id": 5,
     "image": "../images/coding/reactBlogApp.jpeg",
     "imagetext": "React Blog App - Portfolio Banu Ağgün",
     "title": "React Blog App",
-    "url1": "https://react-blog-app-banuaggun.vercel.app/",
-    "url2": "https://github.com/banuaggun/react-blog-app"
+    "subtitle":"A structured blog workspace featuring author-based filtering.",
+    "url2": "https://github.com/banuaggun/react-blog-app", 
+    "url3": "https://react-blog-app-banuaggun.vercel.app/",
+    "featured":false
   },
   {
     "id": 6,
     "image": "../images/coding/ExpenseTracker.jpeg",
     "imagetext": "Expense Tracker - Portfolio Banu Ağgün",
-    "title": "Expense Tracker",
-    "url1": "https://expense-tracker-banuaggun.vercel.app/",
-    "url2": "https://github.com/banuaggun/expense-tracker"
+    "title": "Expense Tracker", 
+    "subtitle":"A personal finance app with local storage data persistence.",
+    "url2": "https://github.com/banuaggun/expense-tracker", 
+    "url3": "https://expense-tracker-banuaggun.vercel.app/",
+    "featured":false
   },
   {
     "id": 7,
     "image": "../images/coding/english-dictionary-example.png",
     "imagetext": "English Dictionary - Portfolio Banu Ağgün",
-    "title": "English Dictionary",
-    "url1": "https://english-dictionary-banuagguns-projects.vercel.app/",
-    "url2": "https://github.com/banuaggun/english-dictionary"
+    "title": "English Dictionary", 
+    "subtitle":"An interactive tool to search words and hear pronunciations.",
+    "url2": "https://github.com/banuaggun/english-dictionary", 
+    "url3": "https://english-dictionary-banuagguns-projects.vercel.app/",
+    "featured":false
   },
   {
     "id": 8,
     "image": "../images/coding/multi-step-form.png",
     "imagetext": "Multiple Step Form - Portfolio Banu Ağgün",
-    "title": "Multiple Step Form",
-    "url1": "https://multi-step-form-banuagguns-projects.vercel.app/",
-    "url2": "https://github.com/banuaggun/multi-step-form"
+    "title": "Multiple Step Form", 
+    "subtitle":"A multi-step form with seamless progress tracking.",
+    "url2": "https://github.com/banuaggun/multi-step-form", 
+    "url3": "https://multi-step-form-banuagguns-projects.vercel.app/", 
+    "featured":true
   },
   {
     "id": 9,
     "image": "../images/coding/note-nest-vue.png",
     "imagetext": "Note Nest Vue - Portfolio Banu Ağgün",
-    "title": "Note Nest Vue",
-    "url1": "https://note-nest-vue.vercel.app/",
-    "url2": "https://github.com/banuaggun/note-nest-vue"
+    "title": "Note Nest Vue", 
+    "subtitle":"An effortless note‑taking space for your ideas.",
+    "url2": "https://github.com/banuaggun/note-nest-vue", 
+    "url3": "https://note-nest-vue.vercel.app/",
+    "featured":true
   }, 
   {
     "id":10, 
     "image":"../images/coding/invoice-app-react.png", 
     "imagetext":"Invoice App React - Portfolio Banu Ağgün",
-    "title":"Invoice App React",
-    "url1":"https://invoice-app-react-amber.vercel.app/",
-    "url2":"https://github.com/banuaggun/invoice-app-react"
+    "title":"Invoice App React", 
+    "subtitle":"A simple yet functional invoice management application.",
+    "url2":"https://github.com/banuaggun/invoice-app-react", 
+    "url3":"https://invoice-app-react-amber.vercel.app/",
+    "featured":true
   }, 
   {
     "id":11, 
-    "image":"../images/coding/LandingPageCover.png", 
-    "imagetext":"Tree Foundation Environmental Platform - Portfolio Banu Ağgün",
-    "title":"Tree Foundation Environmental Platform",
-    "url1":"https://landing-page-khaki-five-41.vercel.app/",
-    "url2":"https://github.com/banuaggun/landing-page"
+    "image":"../images/coding/TreeFoundation.png", 
+    "imagetext":"Tree Foundation Environmental Platform Landing Page - Portfolio Banu Ağgün",
+    "title":"Tree Foundation Environmental Platform", 
+    "subtitle":"A multi-page eco-platform optimized for sustainable digital experiences.", 
+    "url1":"https://www.behance.net/gallery/252660503/Tree-Foundation-Environmental-Platform",
+    "url2":"https://github.com/banuaggun/landing-page", 
+    "url3":"https://landing-page-khaki-five-41.vercel.app/",
+    "featured":false, 
+    "masterpiece":true
   }
 ]

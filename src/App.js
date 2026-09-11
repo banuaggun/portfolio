@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import MainLayout from "./layout/MainLayout"
-import Home from './pages/Home'
-import About from './pages/About'
-import Design from './pages/Design'
-import Coding from './pages/Coding'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+import Design from './pages/design/Design'
+import Coding from './pages/coding/Code'
 import ScrollToTop from "./components/ScrollToTop"
 
 function App() {

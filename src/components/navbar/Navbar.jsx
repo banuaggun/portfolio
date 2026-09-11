@@ -1,13 +1,9 @@
 import React, { useState, useEffect } from "react";
-
 import { Link, useLocation } from "react-router-dom";
-
-import navbar from "../assets/data/navbar.js";
-
-import logo2 from "../assets/logo/logo2.svg";
-import logo3 from "../assets/logo/logo3.svg";
-
-import "../assets/style/navbar.css";
+import navbar from "../../assets/data/navbar.js";
+import logo2 from "../../assets/logo/logo2.svg";
+import logo3 from "../../assets/logo/logo3.svg"; 
+import "./navbar.css";
 
 const Navbar = (props) => {
   const [nav, setNav] = useState(false);
@@ -23,12 +19,11 @@ const Navbar = (props) => {
 
   return (
     <div className="navbar">
-      <div className="navbar__logo">
 
+        <Link to="/" className="navbar__logo" onClick={() => setNav(false)}>
         <img src={logo2} className="logo logo2" alt="Banu Ağgün UI/UX Designer and Frontend Developer Portfolio" />
-
         <img src={logo3} className="logo logo3" alt="Banu Ağgün UI/UX Designer and Frontend Developer Portfolio" />
-      </div>
+      </Link>
 
       {/* menu */}
       <ul className="navbar__list">

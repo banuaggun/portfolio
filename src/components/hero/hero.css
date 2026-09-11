@@ -1,0 +1,233 @@
+.hero{
+  width: 100%; 
+  height:100%; 
+  min-height: max-content;  
+  position: relative;
+  display:flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.hero-container{
+  width:calc(100% - 48px); 
+  height: auto; 
+  margin:140px auto 40px auto; 
+  max-width: 600px; 
+} 
+
+.hero-top-line-group,
+.hero-bottom-line-group {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  gap:16px;
+}  
+
+.hero-top-line-group{
+  margin-top:20px;
+}
+
+.hero-line {
+  flex-grow: 1;
+  border: none;
+  border-bottom: 2px solid rgba(66, 40, 0, 0.4);
+  margin: 0;
+  visibility: hidden;
+} 
+
+.hero-badge {
+  height: 36px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  font-size: 16px;
+  font-weight: var(--weight_medium);
+  font-family: var(--dmsans);
+  text-transform: uppercase;
+  color: var(--badge_colour);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  border-radius: 30px;
+  white-space: nowrap;
+  background: var(--bg_badge);
+  box-shadow: #422800 2px 2px 0 0;
+  border: 2px solid var(--badge_colour);
+} 
+
+.hero-name-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 24px 0;
+  width: 100%;
+}
+
+.hero-titles-left {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start; 
+}
+
+.hero-title {
+  font-size: 56px;
+  font-style: italic;
+  font-weight: var(--weight_normal);
+  color: var(--text_colour_2);
+  margin: 0;
+  line-height: 1.1;
+  font-family: var(--playfair);
+} 
+
+.name-first, .name-last {
+  align-self: flex-start;
+}
+
+
+.hero-mini-bio {
+  align-self: flex-end;
+  margin-top: 24px;
+  max-width: 340px; 
+ background: rgba(251, 238, 224, 0.4); 
+  backdrop-filter: blur(16px); 
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(66, 40, 0, 0.15); 
+  border-radius: 16px; 
+  padding: 18px 24px; 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03); 
+  transition: all 0.3s ease;
+} 
+
+.hero-mini-bio p {
+  font-family: var(--playfair); 
+  font-style: italic;
+  font-size: 16px; 
+  line-height: 1.75;
+  color: var(--badge_colour); 
+  margin: 0;
+  font-weight: var(--weight_normal); 
+  letter-spacing: 0.8px;
+  font-style: italic; 
+}
+ 
+@media (max-width:480px){ 
+  .hero-container{
+    display: flex; 
+    flex-direction: column;
+  }
+  .hero-top-line-group{
+    display: flex; 
+    order:1; 
+    margin-bottom:40px;
+  } 
+  .hero-name-group{
+    display: flex; 
+    flex-direction: column; 
+    align-self: center; 
+    order:3;
+  }  
+  .hero-titles-left{
+    width:100%;
+    text-align: center; 
+  }
+   .name-first, .name-last {
+    align-self: center;
+  }  
+  .hero-bottom-line-group {
+    order: 2; 
+    display:flex;
+  } 
+} 
+
+@media (min-width:481px) and (max-width:1200px){
+  .hero-container{
+    width: calc(100% - 128px); 
+    margin:160px auto 80px auto; 
+    max-width: 700px;
+  } 
+  .hero-line{
+    visibility: visible;
+  } 
+  .hero-name-group{
+    display: flex; 
+    flex-direction: column; 
+    gap:36px; 
+  } 
+   .hero-title {
+    font-size: 100px;  
+    line-height: 1.2;
+  }
+  .hero-mini-bio {
+    position: relative;
+    max-width: 360px;
+  } 
+  .hero-mini-bio p{
+    font-size: 18px;
+  }
+} 
+
+@media (min-width:1201px) and (max-width:1400px){
+  .hero-container{
+    width:calc(100% - 160px); 
+    margin: 120px auto 80px auto; 
+    max-width:1000px; 
+  } 
+  .hero-line{
+    visibility: visible; 
+  } 
+  .hero-name-group{
+    display: flex; 
+    padding: 40px 0; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+  } 
+  .hero-title {
+    font-size: 130px; 
+    line-height: 1.2;
+    padding-left:36px; 
+  }
+  .hero-mini-bio {
+    margin-top: 0;
+    max-width: 340px;
+  } 
+  .hero-mini-bio p{
+    font-size: 18px; 
+    letter-spacing: 1px;
+  }
+} 
+
+@media (min-width:1401px) and (max-width:2600px){
+  .hero-container{
+    width: calc(100% - 200px); 
+    max-width:1100px
+  } 
+  .hero-line{
+    visibility: visible; 
+  } 
+  .hero-name-group{
+    display: flex; 
+    padding: 40px 0; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+  }  
+  .hero-title {
+    font-size: 150px; 
+    line-height: 1.2;
+    padding-left:36px; 
+  }
+  .hero-mini-bio {
+    margin-top: 0;
+    max-width: 340px;
+  } 
+  .hero-mini-bio p{
+    font-size: 18px; 
+    letter-spacing: 1px;
+  } 
+  .hero-badge {
+    font-size: 20px;
+  }
+}
