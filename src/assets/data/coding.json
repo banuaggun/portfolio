@@ -77,7 +77,7 @@
     "subtitle":"A multi-step form with seamless progress tracking.",
     "url2": "https://github.com/banuaggun/multi-step-form", 
     "url3": "https://multi-step-form-banuagguns-projects.vercel.app/", 
-    "featured":true
+    "featured":false
   },
   {
     "id": 9,
@@ -110,5 +110,15 @@
     "url3":"https://landing-page-khaki-five-41.vercel.app/",
     "featured":false, 
     "masterpiece":true
+  }, 
+  {
+    "id":12, 
+    "image":"../images/coding/currency-converter-flow.png", 
+    "imagetext":"Currency Converter Flow - Portfolio Banu Ağgün", 
+    "title":"Currency Converter Flow", 
+    "subtitle":"A financial dashboard with live exchange rates, historical trends, and comparisons.", 
+    "url2":"https://github.com/banuaggun/currency-converter-flow", 
+    "url3":"https://currency-converter-flow.vercel.app/", 
+    "featured":true
   }
 ]
