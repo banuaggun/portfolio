@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "image": "../images/coding/ReactMemoryGame.jpeg",
+    "image": "../images/coding/memoryGame.png",
     "imagetext": "React Memory Game - Portfolio Banu Ağgün",
     "title": "React Memory Game", 
     "subtitle":"A card-matching game featuring multiple difficulty levels and themes.",
