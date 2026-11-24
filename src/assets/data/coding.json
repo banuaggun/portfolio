@@ -37,7 +37,7 @@
     "subtitle":"A card-matching game featuring multiple difficulty levels and themes.",
     "url2": "https://github.com/banuaggun/react-memory-game", 
     "url3":"https://react-memory-game-banuaggun.vercel.app/",
-    "featured":false
+    "featured":true
   },
   {
     "id": 5,
@@ -87,7 +87,7 @@
     "subtitle":"An effortless note‑taking space for your ideas.",
     "url2": "https://github.com/banuaggun/note-nest-vue", 
     "url3": "https://note-nest-vue.vercel.app/",
-    "featured":true
+    "featured":false
   }, 
   {
     "id":10, 
